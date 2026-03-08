@@ -40,14 +40,14 @@ glab auth login  # for glw
 ### Quick install (Linux x86_64)
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/INS-JVidal/watch-gh-actions/master/install.sh | sh
+curl -sSL https://raw.githubusercontent.com/clicraft/ghw-github-actions-watcher/master/install.sh | sh
 ```
 
 Install only one binary:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/INS-JVidal/watch-gh-actions/master/install.sh | sh -s -- ghw
-curl -sSL https://raw.githubusercontent.com/INS-JVidal/watch-gh-actions/master/install.sh | sh -s -- glw
+curl -sSL https://raw.githubusercontent.com/clicraft/ghw-github-actions-watcher/master/install.sh | sh -s -- ghw
+curl -sSL https://raw.githubusercontent.com/clicraft/ghw-github-actions-watcher/master/install.sh | sh -s -- glw
 ```
 
 On other platforms (macOS, aarch64, etc.) the script automatically builds from source using `cargo`.

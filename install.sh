@@ -2,13 +2,13 @@
 # Install script for ghw (GitHub Actions Watcher) and glw (GitLab CI Watcher)
 #
 # Usage:
-#   curl -sSL https://raw.githubusercontent.com/INS-JVidal/watch-gh-actions/master/install.sh | sh
+#   curl -sSL https://raw.githubusercontent.com/clicraft/ghw-github-actions-watcher/master/install.sh | sh
 #   curl -sSL ... | sh -s -- ghw       # install only ghw
 #   curl -sSL ... | sh -s -- glw       # install only glw
 
 set -eu
 
-REPO="INS-JVidal/watch-gh-actions"
+REPO="clicraft/ghw-github-actions-watcher"
 INSTALL_DIR="${HOME}/.local/bin"
 
 # --- Colors -----------------------------------------------------------
