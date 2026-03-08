@@ -320,7 +320,8 @@ pub fn classify_gh_error(stderr: &str) -> String {
         // Stale account with expired/invalid token — suggest removing it
         "A gh account has an invalid token.\n  \
          Run `gh auth status` to identify it, then:\n  \
-         gh auth logout -h github.com -u <stale-username>".to_string()
+         gh auth logout -h github.com -u <stale-username>"
+            .to_string()
     } else if stderr.contains("not logged") || stderr.contains("auth login") {
         "Not authenticated with gh. Run `gh auth login` first.".to_string()
     } else if stderr.contains("not a git repository") || stderr.contains("could not determine") {
